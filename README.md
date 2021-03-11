@@ -1,5 +1,8 @@
 # ASP.NET Projects
 
+## C# Code Fragments
+https://github.com/sandeepdewangan/csharpcode
+
 ## Bulky Book Basic .NET
 https://github.com/sandeepdewangan/BulkyBook
 
