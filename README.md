@@ -14,3 +14,7 @@ https://github.com/sandeepdewangan/Module-Cascading-Dropdown
 
 ## Rocky Project
 https://github.com/sandeepdewangan/rocky
+
+## Pluralsight Course
+### ASP.NET Core Basic PART 1
+https://github.com/sandeepdewangan/OdeToFood
