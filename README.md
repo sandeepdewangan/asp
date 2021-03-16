@@ -16,5 +16,4 @@ https://github.com/sandeepdewangan/Module-Cascading-Dropdown
 https://github.com/sandeepdewangan/rocky
 
 ## Pluralsight Course
-### ASP.NET Core Basic PART 1
-https://github.com/sandeepdewangan/OdeToFood
+#### Building Web Applications with ASP.NET Core MVC
