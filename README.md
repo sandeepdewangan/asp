@@ -16,4 +16,5 @@ https://github.com/sandeepdewangan/Module-Cascading-Dropdown
 https://github.com/sandeepdewangan/rocky
 
 ## Pluralsight Course
-#### Building Web Applications with ASP.NET Core MVC
+#### EF Core Basics
+https://github.com/sandeepdewangan/SamuraiApp
