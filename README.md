@@ -15,6 +15,5 @@ https://github.com/sandeepdewangan/Module-Cascading-Dropdown
 ## Rocky Project
 https://github.com/sandeepdewangan/rocky
 
-## Pluralsight Course
-#### EF Core Basics
-https://github.com/sandeepdewangan/SamuraiApp
+## EF Core Basics
+https://github.com/sandeepdewangan/ASP.NET5-Relationships
