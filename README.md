@@ -3,6 +3,9 @@
 ## C# Code Fragments
 https://github.com/sandeepdewangan/csharpcode
 
+## Relationship with Fluent API
+https://github.com/sandeepdewangan/asp/blob/main/relationships_fluent.md
+
 ## Bulky Book Basic .NET
 https://github.com/sandeepdewangan/BulkyBook
 
