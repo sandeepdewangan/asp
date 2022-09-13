@@ -646,7 +646,53 @@ void SeedDatabase() // <-- seeder method
 }
 ```
 
+## Session
+Before ` builder.build` we need to add this
+```c#
+builder.Services.AddDistributedMemoryCache();
 
+builder.Services.AddSession(options =>
+{
+    options.IdleTimeout = TimeSpan.FromMinutes(90);
+    options.Cookie.HttpOnly = true;
+    options.Cookie.IsEssential = true;
+});
+```
+Use middleware
+```c#
+app.UseAuthorization();
+
+app.UseSession(); // <-- This
+```
+Add Session
+
+```c#
+HttpContext.Session.SetInt32(key, value);
+```
+
+Looping through the Session
+
+```c#
+// loop through the cart data
+foreach (string productId in HttpContext.Session.Keys)
+{
+}
+```
+
+**Adding complex object into session**
+
+```c#
+using Newtonsoft.Json;
+
+HttpContext.Session.SetString("Key", JsonConvert.SerializeObject(Object));
+```
+
+**Retrieving Objects**
+
+```c#
+SiteDetails = JsonConvert.DeserializeObject<ObjectType>(
+                           HttpContext.Session.GetString("Key"));
+```
 
 
 
